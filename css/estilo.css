@@ -1,0 +1,587 @@
+body{
+    margin: 6px;
+    padding: 0;
+}
+/* -- Começo da Pagina index -- */
+
+.video{
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 95%;
+    width: 100vh;
+    height: 100%;
+    z-index: -100;
+
+}
+
+.video video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 115%;
+}
+
+.container{
+    display: flex;
+    height: 97vh;
+    width: 99vw;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.barra1{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: #fdf4b0;
+    width: 40px;
+    height: auto;
+}
+
+.imagem1{
+    min-width: 100%;
+    min-height: 95%;
+    width: 30px;
+    height: 30px;
+}
+
+.container1{
+    display: flex;
+    padding: 0px 60px;
+    flex-direction: column;
+    /* 100vw equivale a largura total da tela do usuario*/
+}
+
+.escrita1{
+    font-family:'Rubik', sans-serif;
+    color: #fdf4b0;
+    font-size: 30px;
+    width: 710px;
+    height: 200px;
+    text-align: center;
+}
+
+.containerperfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil{
+    width: 250px;
+    height: 250px;
+}
+
+.escrita{
+    font-family:'Rubik', sans-serif;
+    color: antiquewhite;
+    font-size:30px
+}
+.botoes{
+    padding-left: 200px;
+}
+
+.bt1{
+    font-weight: bold;
+    background-color: #fdf4b0;
+    border-radius: 10px;
+    border: black solid;
+    font-size: 17px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.bt1:hover{
+    background-color: rgb(218, 102, 22);
+    transform: scale(1.2);
+}
+
+.bt2{
+    font-weight: bold;
+    background-color: #fdf4b0;
+    border-radius: 10px;
+    border: black solid;
+    font-size: 17px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.bt2:hover{
+    background-color: rgb(218, 102, 22);
+    transform: scale(1.2);
+}
+
+.bt3{
+    font-weight: bold;
+    background-color: #fdf4b0;
+    border-radius: 10px;
+    border: black solid;
+    font-size: 17px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.bt3:hover{
+    background-color: rgb(218, 102, 22);
+    transform: scale(1.2);
+}
+
+.containerbarras2{
+    display: flex;
+}
+
+.barra2{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: #a4dcb9;
+    width: 40px;
+    height: auto;
+}
+.barra3{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: #5bcebf;
+    width: 40px;
+    height: auto;
+}
+.barra4{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: #32b9be;
+    width: 40px;
+    height: auto;
+}
+.barra5{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: #2e97b7;
+    width: 40px;
+    height: auto;
+}
+
+.imagem2{
+    width: 30px;
+    height: 30px;
+}
+
+.imagem3{
+    width: 40px;
+    height: 40px;
+}
+
+.imagem4{
+    width: 30px;
+    height: 30px;
+}
+
+.imagem5{
+    width: 45px;
+    height: 45px;
+}
+
+/* -- Fim da Pagina Index -- */
+/* -- Começo da Pagina Sobre.mim -- */
+
+.containerbarras1{
+    display: flex;
+}
+
+.container1pg2{
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    /* 100vw equivale a largura total da tela do usuario*/
+}
+
+.escritapg2{
+    font-family: 'Rubik', sans-serif;
+    color: #a4dcb9;
+    font-size: 25px;
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+}
+
+.container2pg2{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+}
+
+.biografia{
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    color: antiquewhite;
+}
+/* -- Fim da Pagina Sobre.mim -- */
+/* -- Começo da Pagina habilidades --*/
+
+.escritapg3{
+    font-family: 'Rubik', sans-serif;
+    color: #5bcebf;
+    font-size: 25px;
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+}
+
+.container1pg3{
+    margin: 0px 250px;
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(77, 75, 75);
+}
+
+.icons1{
+    border-style: solid;
+    border: 5px 0px;
+    border-color: black;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons2{
+    border-style: solid;
+    border: 5px 0px;
+    border-color: black;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconhtml{
+    width: 70px;
+    height: 70px;
+}
+
+.iconjs{
+    width: 60px;
+    height: 60px;
+}
+
+.iconcss{
+    width: 70px;
+    height: 70px;
+}
+
+.iconjava{
+    width: 70px;
+    height: 70px;
+}
+
+.iconmysql{
+    width: 70px;
+    height: 70px;
+}
+
+/* -- Fim da Pagina habilidades -- */
+/* -- Começo da Pagina Projetos -- */
+
+.escritapg4{
+    font-family: 'Rubik', sans-serif;
+    color: #32b9be;
+    font-size: 25px;
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+}
+.slider {
+    margin: 0 auto;
+    width: 820px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 402px;
+    margin-top: 10px;
+    margin-left: 200px;
+    display: flex;
+
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    border-radius: 5px;
+    width: 392px;
+    height: 200px;
+    margin-left: -117px;
+}
+
+
+.manual-navigation {
+    position: absolute;
+    width: 814px;
+    margin-top: -200px;
+    margin-left: -127px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 1px solid rgb(238, 232, 232);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.navigation-auto div{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 202px;
+    margin-left: -320px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+.pc{
+    position: absolute;
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    display: flex;
+    width: 760px; /* Comprimento da imagem*/
+    height: 480px; /* Altura da imagem*/
+    margin-top: -82px; /* Mover a imagem do PC Para cima ou Para Baixo*/
+    margin-left: -205px; /* Mover a imagem do PC Para direita ou Para Esquerda*/
+}
+
+.legenda1{
+    background-color: rgb(39, 38, 38);
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    margin: 30px;
+    width: 200px;
+    height: 390px;
+    margin-top: -210px;
+    margin-left: 320px;
+}
+
+.legenda{
+    background-color: rgb(39, 38, 38);
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    margin: 30px;
+    width: 200px;
+    height: 320px;
+    margin-top: -210px;
+    margin-left: 320px;
+}
+
+.escrita-legenda{
+    padding: 5px;
+    color: #d1cccc;
+    font-size: 15px;
+    text-align: center;
+}
+.saiba-mais{
+    position: absolute;
+    margin: 50px;
+    margin-top: -5px;
+    background-color: rgb(235, 66, 66);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.saiba-mais:hover{
+    background-color: rgb(233, 45, 45);
+    transform: scale(1.1);
+}
+
+/* -- Fim da Pagina Projetos -- */
+/* -- Começo da Pagina Contatos -- */
+
+.escritapg5{
+    font-family: 'Rubik', sans-serif;
+    color: #2e97b7;
+    font-size: 25px;
+    width: 1050px;
+    height: 150px;
+    text-align: center;
+}
+
+.container1pg5{
+    margin: 0px 350px;
+    margin-top: -90px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.container1pg5obg{
+    margin: 0px 350px;
+    margin-top: -90px;
+    width: 330px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.agradecimento{
+    color: #d9dddf;
+    font-size: 25px;
+}
+
+.form{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: rgb(218, 162, 22);
+}
+.form-input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.form-input3{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.form-input2{
+    font-family: 'Rubik', sans-serif;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #2e97b7;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.form-input2:hover{
+    transform: scale(1.1);
+}
+
+.form-input4{
+    font-family: 'Rubik', sans-serif;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #2e97b7;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.form-input4:hover{
+    transform: scale(1.1);
+}
+
+.col{
+    padding: 5px;
+}
+.form-group{
+    padding: 10px;
+}
+
+.form-control{
+    margin: 5px;
+}
